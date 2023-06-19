@@ -1,5 +1,5 @@
 :root {
-  --primary: #2e0101;
+  --primary: #01086e;
   --bg: #010101;
 }
 
@@ -26,7 +26,7 @@ body {
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid #1a0f06;
+  border-bottom: 1px solid #d1010157;
   position: fixed;
   top: 0;
   left: 0;
@@ -125,7 +125,7 @@ body {
 }
 
 .hero .content p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 150;
@@ -229,6 +229,8 @@ body {
 .Menu .row .Menu-card .Menu-card-title {
   margin: 1rem auto 0.5rem;
 }
+
+/* contact section */
 
 /* media queris */
 
