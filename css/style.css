@@ -248,6 +248,10 @@ body {
 
 /* contact section */
 
+.contact .row {
+  text-align: center;
+  padding: 1rem;
+}
 /* media queris */
 
 /*laptop*/
