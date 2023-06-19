@@ -28,10 +28,14 @@ body {
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #d1010157;
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   right: 0;
   z-index: 9999;
+}
+
+.nav.scrolled {
+  top: 0;
 }
 
 .navbar .navbar-logo {
@@ -228,6 +232,18 @@ body {
 
 .Menu .row .Menu-card .Menu-card-title {
   margin: 1rem auto 0.5rem;
+}
+
+.Menu .row .Menu-card .cta {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4 rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
 /* contact section */
